@@ -47,24 +47,24 @@ export default function Brand1Slider() {
                         spaceBetween: 30,
                     },
                 }}
-                className="swiper-wrapper wow animate__animated animate__fadeIn"
+                // className="swiper-wrapper wow animate__animated animate__fadeIn"
             >
 
-                <SwiperSlide><img src="/assets/imgs/slider/logo/alea.png" alt="transp" />
+                <SwiperSlide><img src="/assets/imgs/slider/logo/borosil.jpg" style={{ paddingTop: '5px', paddingBottom: '30px'}} alt="brand" />
                 </SwiperSlide>
-                <SwiperSlide><img src="/assets/imgs/slider/logo/land.png" alt="transp" />
+                <SwiperSlide><img src="/assets/imgs/slider/logo/electroline.png" style={{ paddingTop: '25px'}} alt="brand" />
                 </SwiperSlide>
-                <SwiperSlide><img src="/assets/imgs/slider/logo/logis.png" alt="transp" />
+                <SwiperSlide><img src="/assets/imgs/slider/logo/elpro.png" style={{ paddingTop: '20px'}} alt="brand" />
                 </SwiperSlide>
-                <SwiperSlide><img src="/assets/imgs/slider/logo/truck.png" alt="transp" />
+                <SwiperSlide><img src="/assets/imgs/slider/logo/Grundfos.png" alt="brand" />
                 </SwiperSlide>
-                <SwiperSlide><img src="/assets/imgs/slider/logo/saltos.png" alt="transp" />
+                <SwiperSlide><img src="/assets/imgs/slider/logo/gursoy.png" style={{ padding: '10px'}} alt="brand" />
                 </SwiperSlide>
-                <SwiperSlide><img src="/assets/imgs/slider/logo/creati.png" alt="transp" />
+                <SwiperSlide><img src="/assets/imgs/slider/logo/ingersoll.png" style={{ paddingTop: '20px'}} alt="brand" />
                 </SwiperSlide>
-                <SwiperSlide><img src="/assets/imgs/slider/logo/logis.png" alt="transp" />
+                <SwiperSlide><img src="/assets/imgs/slider/logo/electroline.png" style={{ paddingTop: '20px'}} alt="brand" />
                 </SwiperSlide>
-                <SwiperSlide><img src="/assets/imgs/slider/logo/truck.png" alt="transp" />
+                <SwiperSlide><img src="/assets/imgs/slider/logo/elpro.png" style={{ paddingTop: '20px'}} alt="brand" />
                 </SwiperSlide>
             </Swiper>
         </>

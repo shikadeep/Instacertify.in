@@ -8,7 +8,9 @@ export default function Info2() {
                     <div className="row">
                         <div className="col-lg-6"><span className="btn btn-tag wow animate__animated animate__fadeIn">Get in
                             touch</span>
-                            <h3 className="color-grey-900 mb-20 mt-15 wow animate__animated animate__fadeIn">Proud to Deliver<br className="d-none d-lg-block" />Excellence Every Time</h3>
+                            <h3 className="color-grey-900 mb-20 mt-15 wow animate__animated animate__fadeIn">Industries of Expertise
+                                {/* <br className="d-none d-lg-block" /> */}
+                            </h3>
                             <p className="font-md color-grey-900 mb-40 wow animate__animated animate__fadeIn">Excepteur sint
                                 occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper
                                 quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective

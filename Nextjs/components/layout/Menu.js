@@ -6,7 +6,9 @@ export default function Menu() {
 
     return (
         <>
-            <ul className="main-menu">
+            <ul 
+            className="main-menu"
+            >
                 <li className="has-children"><Link className="active" href="/">Home</Link>
                     <ul className="sub-menu">
                         {/* <li><Link href="/">Homepage - 1</Link></li> */}
@@ -20,7 +22,7 @@ export default function Menu() {
 
                 {/* services */}
                 <li className="has-children"><Link href="#">Services</Link>
-                    <div className="sub-menu five-col">
+                    {/* <div className="sub-menu five-col">
                         <div className="menu-col">
                             <h6 className="color-brand-2 mb-15">Sea Forwarding</h6>
                             <div className="menu-image"><img src="/assets/imgs/page/homepage1/menu1.png" alt="transp" /></div>
@@ -76,7 +78,7 @@ export default function Menu() {
                                 <li><Link href="/services">Inventory Management</Link></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                 </li>
 
                 <li className="has-children"><Link href="#">Pages</Link>
