@@ -31,7 +31,9 @@ export default function Testimonial4() {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="box-img-testimonials-4"><img src="/assets/imgs/page/homepage4/img-testimonial-4.png" alt="instacertify" />
+                            <div 
+                            className="box-img-testimonials-4">
+                                <img src="/assets/imgs/page/homepage4/img-testimonial-4.png" alt="instacertify" />
                                 {/* <div className="box-info-testimonial-4">
                                     <h3 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Satisfied</h3>
                                     <p className="font-sm color-grey-900 wow animate__animated animate__fadeIn">We always strive

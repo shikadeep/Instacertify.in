@@ -3768,7 +3768,8 @@ iframe {
 .box-newsletter {
   position: relative;
   border-radius: 0px;
-  background-color: #FFE799;
+  /* background-color: #FFE799; */
+  background-color: #FBE4DB;
   padding: 66px;
   display: inline-block;
   width: 100%;
@@ -5971,7 +5972,7 @@ textarea.form-control {
   left: -100px;
   right: -100px;
   /* background: url(../imgs/page/homepage1/hero-image4.jpg) no-repeat top center; */
-    background-color: #085F8F;
+    background-color: #045478;
      background-size: contain;
   z-index: 1;
 }
@@ -5982,7 +5983,7 @@ textarea.form-control {
   left: -30px;
   height: 95px;
   width: 113px;
-  background: url(../imgs/page/homepage1/quote.png) no-repeat top center;
+  /* background: url(../imgs/page/homepage1/quote.png) no-repeat top center; */
   z-index: 1;
 }
 .box-background-offer .row {
@@ -7080,10 +7081,12 @@ a.color-brand-2:hover {
 .box-contactform-left {
   padding: 68px 86px;
   background-color: #E0F0F6;
+  /* background-color: #F7C8AF; */
 }
 
 .box-cover-contactform {
-  background-color: #FFE799;
+  /* background-color: #FFE799; */
+  background-color: #FBE4DB;
 }
 
 .hero-faqs .banner-trackyourparcel {

@@ -53,7 +53,7 @@ export default function Testimonial2Slider() {
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="card-testimonial-grid">
                         <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/about/transparency.svg" alt="instacertify" /></Link>
-                            <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">instacertifyarency
+                            <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">Transparency
                                 </span></Link>
                                 {/* <span className="font-sm color-grey-500 department">Bank of America</span> */}
                             </div>
