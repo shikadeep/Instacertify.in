@@ -9,15 +9,18 @@ export default function Faqs1() {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="box-faqs-left">
-                                <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn">FAQs</h2>
-                                <p className="font-md color-grey-700 mb-50 wow animate__animated animate__fadeIn">Feeling
-                                    inquisitive? Have a read through some of our FAQs or contact our supporters for help</p>
+                                <h2
+
+                                //  className="title-favicon
+                                 className="mb-20 wow animate__animated animate__fadeIn">Frequently Asked Questions</h2>
+                                {/* <p className="font-md color-grey-700 mb-50 wow animate__animated animate__fadeIn">Feeling
+                                    inquisitive? Have a read through some of our FAQs or contact our supporters for help</p> */}
                                 <div className="box-gallery-faqs">
-                                    <div className="image-top"><img src="/assets/imgs/page/homepage1/img-faq1.png" alt="transp" />
+                                    <div className="image-top"><img src="/assets/imgs/page/homepage1/faq-img2.jpg" alt="instacertify" />
                                     </div>
                                     <div className="image-bottom">
-                                        <div className="image-faq-1"><img src="/assets/imgs/page/homepage1/img-faq2.png" alt="transp" /></div>
-                                        <div className="image-faq-2"><img src="/assets/imgs/page/homepage1/img-faq3.png" alt="transp" /></div>
+                                        <div className="image-faq-1"><img src="/assets/imgs/page/homepage1/faq-img4.jpg" alt="instacertify" /></div>
+                                        <div className="image-faq-2" style={{}}><img src="/assets/imgs/page/homepage1/faq-img1.jpg" alt="instacertify" /></div>
                                     </div>
                                 </div>
                             </div>

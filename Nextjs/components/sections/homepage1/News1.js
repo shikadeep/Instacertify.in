@@ -7,9 +7,11 @@ export default function News1() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-8 col-md-8">
-                            <h2 className="title-favicon mb-2 wow animate__animated animate__fadeIn0">Latest News</h2>
-                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">The latest information
-                                about shipping services and our promotions</p>
+                            <h2 
+                            // className="title-favicon
+                            className=" mb-2 wow animate__animated animate__fadeIn0">Latest Events</h2>
+                            {/* <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">The latest information
+                                about shipping services and our promotions</p> */}
                         </div>
                         <div className="col-lg-4 col-md-4 text-end">
                             <div className="box-button-sliders">

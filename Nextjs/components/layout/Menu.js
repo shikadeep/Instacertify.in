@@ -9,19 +9,24 @@ export default function Menu() {
             <ul 
             className="main-menu"
             >
-                <li className="has-children"><Link className="active" href="/">Home</Link>
-                    <ul className="sub-menu">
+                <li 
+                // className="has-children"
+                ><Link className="active" href="/">Home</Link>
+                    {/* <ul className="sub-menu"> */}
                         {/* <li><Link href="/">Homepage - 1</Link></li> */}
                         {/* <li><Link href="/index-2">Homepage - 2</Link></li>
                         <li><Link href="/index-3">Homepage - 3</Link></li> */}
-                        <li><Link href="/index-4">Homepage - 4</Link></li>
-                    </ul>
+                        {/* <li><Link href="/index-4">Homepage - 4</Link></li>
+                    </ul> */}
                 </li>
                 {/* about us page  */}
+                
                 <li><Link href="/about">About Us</Link></li>
 
                 {/* services */}
-                <li className="has-children"><Link href="#">Services</Link>
+                <li 
+                // className="has-children"
+                ><Link href="#">Services</Link>
                     {/* <div className="sub-menu five-col">
                         <div className="menu-col">
                             <h6 className="color-brand-2 mb-15">Sea Forwarding</h6>

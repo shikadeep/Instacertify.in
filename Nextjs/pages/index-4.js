@@ -1,5 +1,6 @@
 import Layout from "@/components/layout/Layout"
 import Brands1 from "@/components/sections/homepage1/Brands1"
+import Services1 from "@/components/sections/homepage1/Services1"
 import News2 from "@/components/sections/homepage2/News2"
 import Newsletter1 from "@/components/sections/homepage2/Newsletter1"
 import Pricing2 from "@/components/sections/homepage2/Pricing2"
@@ -18,6 +19,8 @@ export default function Home4() {
         <>
             <Layout topBarStyle="top-bar-style-3">
                 <Hero4 />
+                <Brands1/>
+                <Services1/>
                 <Info7 />
                 <Testimonial4 />
                 <Howitwork2 />

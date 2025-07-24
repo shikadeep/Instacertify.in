@@ -8,7 +8,7 @@ export default function Howitwork2() {
                 <div className="container">
                     <div className="box-how-it-work-2 bg-brand-2 bg-how-it-work-2">
                         <div className="text-center">
-                            <h2 className="color-white wow animate__animated animate__fadeIn">How It Works</h2>
+                            <h3 className="color-white wow animate__animated animate__fadeIn">Simply your path to product certification excellence with our expert solutions</h3>
                         </div>
                         <div className="box-list-how-it-work">
                             <ul className="list-how-works">

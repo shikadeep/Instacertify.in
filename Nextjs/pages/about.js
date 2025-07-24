@@ -12,9 +12,11 @@ export default function About() {
             <Layout>
                 <section className="section">
                     <div className="container">
-                        <div className="box-pageheader-1 text-center"><span className="btn btn-tag wow animate__animated animate__fadeIn">Who We Are</span>
+                        <div className="box-pageheader-1 text-center">
+                            <div className="overlay"></div>
+                            {/* <span className="btn btn-tag wow animate__animated animate__fadeIn"></span> */}
                             <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">About Us</h2>
-                            <p className="font-md color-white wow animate__animated animate__fadeIn">We have been pioneering the industry in Europe for 20 years, and delivering value<br className="d-none d-lg-block" />products within given timeframe, every single time.</p>
+                            <p className="font-md color-white wow animate__animated animate__fadeIn">Certification made easy with instacertify<br className="d-none d-lg-block" /></p>
                         </div>
                     </div>
                 </section>
@@ -22,17 +24,21 @@ export default function About() {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6 mb-30">
-                                <h2 className="color-brand-2 mb-25 wow animate__animated animate__fadeIn">Simplifying complex shipping challenges with innovative solutions</h2>
-                                <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">Logistics companies are essential to the smooth functioning of global supply chains. They offer a range of services such as transportation, warehousing, inventory management, and distribution to businesses across different industries. The role of logistics companies has become increasingly important in recent years due to the growth of e-commerce and global trade.</p>
-                                <div className="box-button mt-40"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeIn" href="#">Calculate Package</Link><a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeIn" onClick={() => setOpen(true)}><img src="/assets/imgs/template/icons/play.svg" alt="transp" /></a></div>
-                                <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
+                                <h2 className="color-brand-2 mb-25 wow animate__animated animate__fadeIn">India’s Leading Product Testing and Consultancy Firm
+                                    since 2015</h2>
+                                <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">Welcome to Instacertify, India’s Premiere product testing and consultancy firm. Since our foundation in 2015, we have rapidly grown into the fastest-growing company in the industry, offering a wide range of quality testing and compliance consultancy services. Our expertise spans across BIS, CRS, ISI, CDSCO, WPC, IMEI-DOT, GMARK, LMPC, SFDA, CIB, EPR and E-waste Management. Starting in 2015 independent consultant to now having clients across the globe with operations headquartered in Noida and a business office in Vadodara, Gujarat. Strategic global alliances with our rapid geographical expansion keep
+                                    us at the forefront of international practices and processes to ensure that our clients benefit from the best standards worldwide.</p>
+                                <div className="box-button mt-40"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeIn" href=""> Our Story</Link>
+                                    {/* <a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeIn" onClick={() => setOpen(true)}><img src="/assets/imgs/template/icons/play.svg" alt="instacertify" /></a> */}
+                                </div>
+                                {/* <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} /> */}
                             </div>
                             <div className="col-lg-6 position-relative mb-30">
                                 <div className="row align-items-end">
-                                    <div className="col-lg-5 col-md-5 col-sm-5"><img className="mb-20 wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-1-1.png" alt="transp" /><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-1-2.png" alt="transp" /></div>
-                                    <div className="col-lg-7 col-md-7 col-sm-7"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-1-3.png" alt="transp" /></div>
+                                    <div className="col-lg-5 col-md-5 col-sm-5"><img className="mb-20 wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/about-page-img.jpg" alt="instacertify" /><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/about-page-img1.jpg" alt="instacertify" /></div>
+                                    <div className="col-lg-7 col-md-7 col-sm-7"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/about-page-img2.jpg" alt="instacertify" /></div>
                                 </div>
-                                <div className="quote-center shape-2" />
+                                {/* <div className="quote-center shape-2" /> */}
                             </div>
                         </div>
                     </div>
@@ -40,21 +46,31 @@ export default function About() {
                 <section className="section mt-50 mb-50">
                     <div className="container">
                         <div className="row align-items-center item-about-2">
-                            <div className="col-lg-6"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-2-1.png" alt="transp" /></div>
+                            <div className="col-lg-6"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/about-page-img-3.jpg" alt="instacertify" /></div>
                             <div className="col-lg-6">
+                                {/* //mission */}
                                 <div className="box-info-aabout-2"><span className="btn btn-tag wow animate__animated animate__fadeIn">Mission</span>
-                                    <h2 className="color-brand-2 mt-15 mb-25 wow animate__animated animate__fadeIn">Globally Connected by Large Network</h2>
-                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">At Logistic Transp, our mission is to provide our clients with exceptional transportation services that meet and exceed their expectations. We aim to be the most reliable, efficient, and cost-effective transportation provider in the industry.</p>
+                                    <p className="color-brand-2 mt-15 mb-25 wow animate__animated animate__fadeIn">Instacertify empowers businesses with deliverable and efficient certification solutions and enable them to perform in the global marketplace. We are dedicated to ensure highest standards of quality, integrity, and satisfaction of clients.</p>
+                                    {/* <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">At Logistic instacertify, our mission is to provide our clients with exceptional instacertifyortation services that meet and exceed their expectations. We aim to be the most reliable, efficient, and cost-effective instacertifyortation provider in the industry.</p> */}
                                     <div className="box-button mt-40">
                                         <div className="row">
                                             <div className="col-lg-6 mb-30">
-                                                <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Affordable Cost</h6>
-                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                                <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Industry Leader </h6>
+                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">Be the trendsetter in every compliance market sector for products and services.</p>
                                             </div>
                                             <div className="col-lg-6 mb-30">
-                                                <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Shot Time Delivery</h6>
-                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                                <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Global Coverage </h6>
+                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">Extend our offerings to cover major compliances in global network</p>
                                             </div>
+                                            <div className="col-lg-6 mb-30">
+                                                <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Market Presence</h6>
+                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">Establish a physical presence in key global markets,</p>
+                                            </div>
+                                            <div className="col-lg-6 mb-30">
+                                                <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Innovation Hub </h6>
+                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">Establish state-of-the-art innovation hub that continuously adapts itself to new challenges.</p>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -62,30 +78,48 @@ export default function About() {
                         </div>
                         <div className="row align-items-center item-about-2 item-about-2-revert">
                             <div className="col-lg-6">
-                                <div className="box-info-aabout-2"><span className="btn btn-tag wow animate__animated animate__fadeIn">History</span>
-                                    <h2 className="color-brand-2 mt-15 mb-25 wow animate__animated animate__fadeIn">Globally Connected by Large Network</h2>
-                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">Logistic Transp was founded in 2005 by a group of transportation professionals who saw an opportunity to provide a better level of service to businesses. Since our founding, we have grown to become a leading transportation provider, with a presence in over 30 countries around the world.</p>
-                                    <div className="box-button mt-40"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="/contact">Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
+                                {/* //our approach */}
+                                <div className="box-info-aabout-2"><span className="btn btn-tag wow animate__animated animate__fadeIn">Our Approach</span>
+                                    <h6 className="color-brand-2 mt-15 mb-25 wow animate__animated animate__fadeIn">Instacertify believes in delivering excellence with a customized and system-driven approach. We ensure seamless certification for our clients.</h6>
+                                    {/* <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">.</p> */}
+                                    <div className="box-button mt-40">
+                                        <div className="row">
+                                            <div className="col-lg-6 mb-30">
+                                                <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Client-Centric Solution </h6>
+                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">Every client is different; hence, we make sure that the particular regulatory requirements of every client are completely met.</p>
+                                            </div>
+                                            <div className="col-lg-6 mb-30">
+                                                <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Global Best Practices </h6>
+                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">With our global alliances, we work to connect international standards and state-of-the-art technology to provide you with the most reliable certification.</p>
+                                            </div>
+                                            <div className="col-lg-6 mb-30" style={{ paddingLeft: '10px' }}>
+                                                <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Continuous Improvement</h6>
+                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">We are continuously refining our processes and methodologies to be current with industrial trends and regulatory changes.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    {/* <div className="box-button mt-40"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="/contact">Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
                                         <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                        </svg></Link></div>
+                                        </svg></Link></div> */}
                                 </div>
                             </div>
-                            <div className="col-lg-6"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-2-2.png" alt="transp" /></div>
+                            <div className="col-lg-6"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/about-page-img-4.jpg" alt="instacertify" /></div>
                         </div>
-                        <div className="row align-items-center item-about-2">
-                            <div className="col-lg-6"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-2-3.png" alt="transp" /></div>
+                        {/* <div className="row align-items-center item-about-2">
+                            <div className="col-lg-6"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-2-3.png" alt="instacertify" /></div>
                             <div className="col-lg-6">
                                 <div className="box-info-aabout-2"><span className="btn btn-tag wow animate__animated animate__fadeIn">Our Partners</span>
                                     <h2 className="color-brand-2 mt-15 mb-25 wow animate__animated animate__fadeIn">We have established strong relationships with our partners</h2>
-                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">We strive to become pioneers in the field, providing first quality and cost-effective service, and smart solutions to the market. Our 30 years’ experience in the shipping, transport and logistics industry is our strength, which support us to deliver our promises to our customers.</p>
-                                    <div className="box-button d-flex mt-40"><Link className="hover-up mr-10 wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/appstore-btn.png" alt="transp" /></Link><Link className="hover-up wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/google-play-btn.png" alt="transp" /></Link></div>
+                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">We strive to become pioneers in the field, providing first quality and cost-effective service, and smart solutions to the market. Our 30 years’ experience in the shipping, instacertifyort and logistics industry is our strength, which support us to deliver our promises to our customers.</p>
+                                    <div className="box-button d-flex mt-40"><Link className="hover-up mr-10 wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/appstore-btn.png" alt="instacertify" /></Link><Link className="hover-up wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/google-play-btn.png" alt="instacertify" /></Link></div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </section>
-                <section className="section mt-55 bg-1 position-relative pt-90 pb-90">
+                {/* <section className="section mt-55 bg-1 position-relative pt-90 pb-90">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6"><span className="btn btn-tag wow animate__animated animate__fadeIn">Get in touch</span>
@@ -109,8 +143,9 @@ export default function About() {
                         </div>
                     </div>
                     <div className="box-image-touch box-image-info-2-2" />
-                </section>
-                <section className="section pt-110 pb-100">
+                </section> */}
+                {/* //// our team  */}
+                {/* <section className="section pt-110 pb-100">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-12">
@@ -121,7 +156,7 @@ export default function About() {
                         <div className="row mt-50">
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team1.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team1.png" alt="instacertify" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -142,7 +177,7 @@ export default function About() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team2.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team2.png" alt="instacertify" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Lori Stevens</h6>
                                         <div className="info-bottom">
@@ -163,7 +198,7 @@ export default function About() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team3.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team3.png" alt="instacertify" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -184,7 +219,7 @@ export default function About() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team4.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team4.png" alt="instacertify" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -205,7 +240,7 @@ export default function About() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/about/team5.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/about/team5.png" alt="instacertify" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -226,7 +261,7 @@ export default function About() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/about/team6.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/about/team6.png" alt="instacertify" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Lori Stevens</h6>
                                         <div className="info-bottom">
@@ -247,7 +282,7 @@ export default function About() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/about/team7.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/about/team7.png" alt="instacertify" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -268,7 +303,7 @@ export default function About() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/about/team8.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/about/team8.png" alt="instacertify" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -289,7 +324,7 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <div className="section bg-2 pt-65 pb-35">
                     <div className="container">
                         <div className="row align-items-center">
@@ -311,8 +346,10 @@ export default function About() {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-8 col-md-8">
-                                <h2 className="title-favicon color-brand-2 mb-20 title-padding-left wow animate__animated animate__fadeIn">Testimonials</h2>
-                                <p className="font-lg color-brand-2 pl-55 wow animate__animated animate__fadeIn">Hear from our users who have saved thousands on their<br className="d-none d-lg-block" />Startup and SaaS solution spend.</p>
+                                <h3
+                                    // className="title-favicon
+                                    className=" color-brand-2 mb-20 title-padding-left wow animate__animated animate__fadeIn">We make it simple to focus on what you love</h3>
+                                {/* <p className="font-lg color-brand-2 pl-55 wow animate__animated animate__fadeIn">Hear from our users who have saved thousands on their<br className="d-none d-lg-block" />Startup and SaaS solution spend.</p> */}
                             </div>
                             <div className="col-lg-4 col-md-4 text-end">
                                 <div className="box-button-sliders">
@@ -344,8 +381,9 @@ export default function About() {
                     <div className="container">
                         <div className="box-get-quote">
                             <div className="get-quote-left">
-                                <p className="font-3xl color-white mb-10 wow animate__animated animate__fadeIn">Have any ideas in your mind?</p>
-                                <h2 className="color-brand-1 wow animate__animated animate__fadeIn">Create your next Project with Us</h2>
+                                <p className="font-3xl color-white mb-10 wow animate__animated animate__fadeIn">Our Values </p>
+                                <h2 className="color-brand-1 wow animate__animated animate__fadeIn">Innovation
+                                    -Collaboration-Accountability</h2>
                             </div>
                             <div className="get-quote-right"><Link className="btn btn-get-quote wow animate__animated animate__fadeIn" href="/request-a-quote">
                                 <svg className="mr-10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -355,7 +393,8 @@ export default function About() {
                     </div>
                 </section>
                 <div className="mt-50" />
-                <section className="section mt-50">
+                {/* //blog section */}
+                {/* <section className="section mt-50">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-8 col-md-8">
@@ -385,7 +424,7 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <div className="section bg-map d-block">
                     <div className="container">
                         <div className="box-newsletter">
@@ -397,22 +436,22 @@ export default function About() {
                                             <div className="row">
                                                 <div className="col-md-6">
                                                     <div className="form-group">
-                                                        <input className="form-control" type="text" placeholder="Your name *" />
+                                                        <input className="form-control" type="text" placeholder="FirstName *" />
                                                     </div>
                                                 </div>
                                                 <div className="col-md-6">
                                                     <div className="form-group">
-                                                        <input className="form-control" type="text" placeholder="Your email *" />
+                                                        <input className="form-control" type="text" placeholder="LastName *" />
                                                     </div>
                                                 </div>
                                                 <div className="col-md-6">
                                                     <div className="form-group">
-                                                        <input className="form-control" type="text" placeholder="Weight" />
+                                                        <input className="form-control" type="text" placeholder="Email" />
                                                     </div>
                                                 </div>
                                                 <div className="col-md-6">
                                                     <div className="form-group">
-                                                        <input className="form-control" type="text" placeholder="Height" />
+                                                        <input className="form-control" type="text" placeholder="Number" />
                                                     </div>
                                                 </div>
                                                 <div className="col-md-12">
@@ -430,28 +469,31 @@ export default function About() {
                                 <div className="col-lg-7 mb-30">
                                     <div className="d-flex box-newsletter-right">
                                         <div className="box-map-2 wow animate__animated animate__fadeIn">
-                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.960389549842!2d-83.76408938441998!3d37.15364135542302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884352a00e70879f%3A0x1ad06ed33b7003c!2sIangar!5e0!3m2!1svi!2s!4v1678013229780!5m2!1svi!2s" height={242} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                                            <iframe className="wow animate__animated animate__fadeIn" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2768.2476162754697!2d77.39314977429281!3d28.61493758488163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef026d8d22d3%3A0x4921bde7d687fe82!2sInstacertify%20-%20BIS%2C%20ISI%20%2C%20EPR%2C%20LMPC%20Consultant!5e1!3m2!1sen!2sin!4v1753287468819!5m2!1sen!2sin"
+                                                height={420} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"
+                                            />
                                         </div>
                                         <ul className="list-info-footer">
                                             <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="transp" /></span></div>
+                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="instacertify" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Address</h6>
-                                                    <p className="font-sm color-grey-900">65 Allerton Street 901 N Pitt Str, USA</p>
+                                                    <p className="font-sm color-grey-900">A-34, Sector 63 A, Noida,
+                                                        Uttar Pradesh 201307</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="transp" /></span></div>
+                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="instacertify" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Email</h6>
-                                                    <p className="font-sm color-grey-900">contact@transp.com</p>
+                                                    <p className="font-sm color-grey-900">contact@instacertify.com</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="transp" /></span></div>
+                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="instacertify" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Telephone</h6>
-                                                    <p className="font-sm color-grey-900">(+380) 50 318 47 07 - (+182) 50 318 47 07</p>
+                                                    <p className="font-sm color-grey-900">+91 9999118039</p>
                                                 </div>
                                             </li>
                                         </ul>

@@ -23,61 +23,46 @@ export default function Accordion() {
             <div className="accordion" id="accordionFAQ">
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(1)}>
-                        <button className={isActive.key == 1 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>How can I return an item
-                            purchased online?</button>
+                        <button className={isActive.key == 1 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
+                            What services does Instacertify offer?</button>
                     </h5>
                     <div className={isActive.key == 1 ? "accordion-collapse" : "accordion-collapse collapse"}>
-                        <div className="accordion-body">Contrary to popular belief, Lorem Ipsum is not
-                            simply random text. It has roots in a piece of classical Latin literature Id
-                            pro doctus mediocrem erroribus, diam nostro sed cu. Ea pri graeco tritani
-                            partiendo. Omittantur No tale choro fastidii his, pri cu epicuri perpetua.
-                            Enim dictas omittantur et duo, vocent lucilius quaestio mea ex. Ex illum
-                            officiis id.</div>
+                        <div className="accordion-body">Instacertify provides comprehensive product testing and certification compliance services,
+                             including BIS, CRS, ISI, CDSCO, WPC, IMEI-DOT, GMARK, LMPC, SFDA, CIB, EPR, and E-waste Management.</div>
                     </div>
                 </div>
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(2)}>
-                        <button className={isActive.key == 2 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>Can I cancel or change
-                            my order?</button>
+                        <button className={isActive.key == 2 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
+                            How can I request a certification or testing service?</button>
                     </h5>
                     <div className={isActive.key == 2 ? "accordion-collapse" : "accordion-collapse collapse"}>
-                        <div className="accordion-body">Aut architecto consequatur sit error nemo sed
-                            dolorum suscipit 33 impedit dignissimos ut velit blanditiis qui quos magni
-                            id dolore dignissimos. Sit ipsa consectetur et sint harum et dicta
-                            consequuntur id cupiditate perferendis qui quisquam enim. Vel autem illo id
-                            error excepturi est dolorum voluptas qui maxime consequatur et culpa
-                            quibusdam in iusto vero sit amet Quis.</div>
+                        <div className="accordion-body">You can easily request our services by filling out the inquiry form on our website or by contacting us directly through
+                             our provided phone number or email. Our team will guide you through the process and provide the necessary assistance.</div>
                     </div>
                 </div>
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(3)}>
-                        <button className={isActive.key == 3 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>I have promotional or
-                            discount code?</button>
+                        <button className={isActive.key == 3 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
+                            What industries do you serve?</button>
                     </h5>
                     <div className={isActive.key == 3 ? "accordion-collapse" : "accordion-collapse collapse"}>
-                        <div className="accordion-body">Eos nostrum aperiam ab enim quas sit voluptate fuga.
-                            Ea aperiam voluptas a accusantium similique 33 alias sapiente non vitae
-                            repellat et dolorum omnis eos beatae praesentium id sunt corporis. Aut nisi
-                            blanditiis aut corrupti quae et accusantium doloribus sed tempore libero a
-                            dolorum beatae.</div>
+                        <div className="accordion-body">We serve a wide range of industries, including manufacturing, electronics, pharmaceuticals,
+                             and consumer goods. Our expertise covers various sectors, ensuring tailored solutions for diverse regulatory needs.</div>
                     </div>
                 </div>
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(4)}>
-                        <button className={isActive.key == 4 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>What are the delivery
-                            types you use?</button>
+                        <button className={isActive.key == 4 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
+                            How long does the certification process take?</button>
                     </h5>
                     <div className={isActive.key == 4 ? "accordion-collapse" : "accordion-collapse collapse"}>
-                        <div className="accordion-body">Et beatae quae ex minima porro aut nihil quia sed
-                            optio dignissimos et voluptates deleniti et nesciunt veritatis et suscipit
-                            quod. Est sint voluptate id unde nesciunt non deleniti debitis. Ut dolores
-                            tempore vel placeat nemo quo enim reprehenderit eos corrupti maiores et
-                            minima quaerat. Quo sequi eaque eum similique sint et autem perspiciatis cum
-                            Quis exercitationem quo quos excepturi non ducimus ducimus eos natus velit.
+                        <div className="accordion-body">The duration of the certification process depends on the specific requirements and complexity of the certification.
+                             Our team will provide you with an estimated timeline based on your needs and keep you updated throughout the process.
                         </div>
                     </div>
                 </div>
-                <div className="accordion-item wow animate__animated animate__fadeIn">
+                {/* <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(5)}>
                         <button className={isActive.key == 5 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>How can I pay for my
                             purchases?</button>
@@ -89,7 +74,7 @@ export default function Accordion() {
                             nisi architecto a officiis itaque eum quod repellat ut dolorem dolorem aut
                             ipsam ipsa.</div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )

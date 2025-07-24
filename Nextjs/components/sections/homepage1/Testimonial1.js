@@ -5,10 +5,13 @@ export default function Testimonial1() {
         <>
             <section className="section mt-50 bg-customers-say">
                 <div className="container">
-                    <h2 className="title-favicon color-white mb-20 title-padding-left wow animate__animated animate__fadeIn">
+                    <h2 
+                    // className="title-favicon
+                    className= "color-white mb-20 title-padding-left wow animate__animated animate__fadeIn">
                         What our customers are saying</h2>
-                    <p className="font-lg color-white pl-55 wow animate__animated animate__fadeIn">Hear from our users who have
-                        saved thousands on their<br className="d-none d-lg-block" />Startup and SaaS solution spend.</p>
+                    <p className="font-lg color-white pl-55 wow animate__animated animate__fadeIn">Building Success Together
+                        <br className="d-none d-lg-block" />
+                        </p>
                 </div>
                 <div className="container">
                     <div className="box-slide-customers mt-50">
