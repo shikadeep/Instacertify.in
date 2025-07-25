@@ -7,9 +7,9 @@ export default function Projects1() {
             <section className="section bg-what-done pb-95 pt-110">
                 <div className="container">
                     <h2
-                    // className=" title-favicon
-                    className=" mb-20 wow animate__animated animate__fadeIn">Key Industries of Expertise</h2>
-                    <div className="row align-items-end">
+                        // className=" title-favicon
+                        className=" mb-20 wow animate__animated animate__fadeIn"> Industries </h2>
+                    <div className="row align-items-end" >
                         <div className="col-lg-8 col-md-8 mb-30">
                             {/* <p className="font-md color-gray-700 wow animate__animated animate__fadeIn">Check out some of the
                                 projects we've completed with our amazing partners</p> */}
@@ -20,8 +20,8 @@ export default function Projects1() {
                                 </path>
                             </svg>View Our Equipements</Link></div>
                     </div>
-                    <div className="mt-35">
-                        <div className="box-swiper">
+                    <div className="mt-35" style={{ backgroundColor: '#E0F0F6' }}>
+                        <div className="box-swiper" >
                             <div className="swiper-container swiper-group-4 pb-50">
                                 <Project1Slider />
                             </div>

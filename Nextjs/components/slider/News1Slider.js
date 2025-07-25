@@ -174,7 +174,7 @@ export default function News1Slider() {
                 </SwiperSlide>
 
             </Swiper>
-            <div className="swiper-pagination swiper-pagination-banner" />
+            {/* <div className="swiper-pagination swiper-pagination-banner" /> */}
         </>
     )
 }

@@ -41,10 +41,11 @@ export default function Home() {
                 <Testimonial4 />
                 <Howitwork1 />
                 {/* <Howitwork2 /> */}
+                <div className="line-border mb-1 mt-1"></div>
                 <Projects1 />
                 {/* <Projects3 /> */}
                 {/* <Info6 /> */}
-                <div className="line-border mb-30 mt-70"></div>
+                <div className="line-border mb-3 mt-7"></div>
                 {/* <Requestquote2 /> */}
                 {/* <Whychooseus3 /> */}
                 <Info1 />

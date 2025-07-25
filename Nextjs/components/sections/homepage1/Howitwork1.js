@@ -13,7 +13,8 @@ export default function Howitwork1() {
                         <div className="col-lg-6 mb-30">
                             <div className="box-image-how"><img className="w-100 wow animate__animated animate__fadeIn" src="/assets/imgs/page/homepage1/hero-image2.jpg" alt="instacertify" />
                                 <div className="box-info-bottom-img">
-                                    <div className="image-play"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/play.svg" alt="instacertify" /></div>
+                                    <div className="image-play"
+                                    ><img className="mb-15 wow animate__animated animate__fadeIn" style={{width:'50px'}} src="/assets/imgs/page/about/play-button.svg" alt="instacertify" /></div>
                                     <div className="info-play">
                                         <h5 className="color-white mb-15 wow animate__animated animate__fadeIn"></h5>
                                         <p className="font-sm color-white wow animate__animated animate__fadeIn">We are India's leading product testing and compliance 

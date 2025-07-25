@@ -3769,7 +3769,7 @@ iframe {
   position: relative;
   border-radius: 0px;
   /* background-color: #FFE799; */
-  background-color: #FBE4DB;
+  background-color: #FFC8AD;
   padding: 66px;
   display: inline-block;
   width: 100%;
@@ -5564,7 +5564,10 @@ footer a {
 }
 
 .bg-what-done {
-  background: url(../imgs/page/homepage1/bg-what-done.png) no-repeat bottom left;
+  /* background: url(../imgs/page/homepage1/bg-what-done.png) no-repeat bottom left; */
+  /* background-color:#FFC8AD; */
+  background: no repeat bottom left;
+  /* width: 80% */
 }
 
 .swiper-group-4 .swiper-button-prev-style-1 {
@@ -5579,8 +5582,8 @@ footer a {
 }
 
 .line-border {
-  border-bottom: 1px solid #E8E9ED;
-  margin: 20px 0px;
+  border-bottom: 2px solid #E8E9ED;
+  margin: 10px 0px;
 }
 
 .box-button-sliders {
@@ -6656,7 +6659,7 @@ input:checked + .slider:before {
   right: 22px;
   width: 72px;
   height: 73px;
-  background: url(../imgs/page/homepage4/quotation.png) no-repeat center;
+  /* background: url(../imgs/page/homepage4/quotation.png) no-repeat center; */
 }
 .box-testimonial-4-item .card-testimonial-grid {
   box-shadow: 0px 5px 30px rgba(19, 27, 34, 0.12);
@@ -7081,12 +7084,14 @@ a.color-brand-2:hover {
 .box-contactform-left {
   padding: 68px 86px;
   background-color: #E0F0F6;
+
   /* background-color: #F7C8AF; */
 }
 
 .box-cover-contactform {
   /* background-color: #FFE799; */
-  background-color: #FBE4DB;
+  /* background-color: #FFC8AD; */
+    background-color: #FFC8AD;
 }
 
 .hero-faqs .banner-trackyourparcel {
@@ -7147,9 +7152,9 @@ a.color-brand-2:hover {
   position: absolute;
   bottom: -30px;
   left: -80px;
-  height: 95px;
-  width: 113px;
-  background-image: url(../imgs/page/homepage2/quote.png);
+  /* height: 95px;
+  width: 113px; */
+  background-image: url(../imgs/page/about/quote.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
