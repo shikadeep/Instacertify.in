@@ -21,8 +21,8 @@ export default function Hero4() {
                                 <div className="box-button mt-30">
                                     <a className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeIn" href="#">About us</a>
                                 
-                                <a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeIn" onClick={() => setOpen(true)}>
-                                    <img src="/assets/imgs/page/about/play-button.svg" style={{width:'50px'}} alt="instacertify" /></a>
+                                {/* <a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeIn" onClick={() => setOpen(true)}>
+                                    <img src="/assets/imgs/page/about/play-button.svg" style={{width:'50px'}} alt="instacertify" /></a> */}
                                 </div>
                                 {/* <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} /> */}
                             </div>

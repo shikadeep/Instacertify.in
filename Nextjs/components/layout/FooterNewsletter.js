@@ -1,9 +1,10 @@
 import Link from "next/link";
+import Footer1 from "./Footer";
 
 export default function FooterNewsletter() {
     return (
         <>
-            <footer className="footer footer-newsletter">
+            {/* <footer className="footer footer-newsletter">
                 <div className="footer-1">
                     <div className="container-sub">
                         <div className="row">
@@ -61,8 +62,8 @@ export default function FooterNewsletter() {
                         </div>
                     </div>
                 </div>
-            </footer>
-
+            </footer> */}
+            <Footer1/>
         </>
     )
 }

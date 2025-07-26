@@ -7,9 +7,9 @@ export default function Testimonial1() {
                 <div className="container">
                     <h2 
                     // className="title-favicon
-                    className= "color-white mb-20 title-padding-left wow animate__animated animate__fadeIn">
-                        What our customers are saying</h2>
-                    <p className="font-lg color-white pl-55 wow animate__animated animate__fadeIn">Building Success Together
+                    className= " mb-20 title-padding-left wow animate__animated animate__fadeIn" style={{color:'#045478'}}>
+                        Client Testimonials:</h2>
+                    <p className="font-lg color-#045478 pl-55 wow animate__animated animate__fadeIn">Building Success Together
                         <br className="d-none d-lg-block" />
                         </p>
                 </div>

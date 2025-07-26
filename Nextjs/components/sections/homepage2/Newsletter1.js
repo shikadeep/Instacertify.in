@@ -4,6 +4,7 @@ export default function Newsletter1() {
         <>
              <div className="section bg-map d-block">
                     <div className="container">
+                        
                         <div className="box-newsletter">
                             <h3 className="color-brand-2 mb-20 wow animate__animated animate__fadeIn">Get in Touch</h3>
                             <div className="row">
@@ -11,16 +12,16 @@ export default function Newsletter1() {
                                     <div className="form-newsletter wow animate__animated animate__fadeIn">
                                         <form action="#">
                                             <div className="row">
-                                                <div className="col-md-6">
+                                                <div className="col-md-12">
                                                     <div className="form-group">
                                                         <input className="form-control" type="text" placeholder="FirstName *" />
                                                     </div>
                                                 </div>
-                                                <div className="col-md-6">
+                                                {/* <div className="col-md-6">
                                                     <div className="form-group">
                                                         <input className="form-control" type="text" placeholder="LastName *" />
                                                     </div>
-                                                </div>
+                                                </div> */}
                                                 <div className="col-md-6">
                                                     <div className="form-group">
                                                         <input className="form-control" type="text" placeholder="Email" />
@@ -56,7 +57,7 @@ export default function Newsletter1() {
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Address</h6>
                                                     <p className="font-sm color-grey-900">A-34, Sector 63 A, Noida,
-                                                        Uttar Pradesh 201307</p>
+                                                        Uttar Pradesh 201301</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">

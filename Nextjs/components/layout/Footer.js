@@ -105,7 +105,7 @@ export default function Footer1({ }) {
                     <div className="container">
                         <div className="footer-bottom">
                             <div className="row align-items-center" style={{color:'#FFFFFF'}} >
-                                <div className="col-lg-6 col-md-12 text-center text-lg-start"><span className=" font-md">InstaCertify Official {new Date().getFullYear()}. All right reversed.</span></div>
+                                <div className="col-lg-6 col-md-12 text-center text-lg-start"><span className=" font-md">Copyright © Instacertify Labs Private Limited {new Date().getFullYear()}. All right reversed.</span></div>
                                 <div className="col-lg-6 col-md-12 text-center text-lg-end">
                                     <ul className="menu-bottom">
                                         <li><Link className="font-sm " style={{color:'#FFFFFF'}} href="/term-conditions">Privacy policy</Link>

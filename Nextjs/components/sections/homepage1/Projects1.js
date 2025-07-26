@@ -20,7 +20,7 @@ export default function Projects1() {
                                 </path>
                             </svg>View Our Equipements</Link></div>
                     </div>
-                    <div className="mt-35" style={{ backgroundColor: '#E0F0F6' }}>
+                    <div className="mt-35" style={{ backgroundColor: '#045478' }}>
                         <div className="box-swiper" >
                             <div className="swiper-container swiper-group-4 pb-50">
                                 <Project1Slider />

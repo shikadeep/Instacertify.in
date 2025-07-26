@@ -22,10 +22,10 @@ export default function Accordion() {
         <>
             <div className="accordion" id="accordionFAQ">
                 <div className="accordion-item wow animate__animated animate__fadeIn">
-                    <h5 className="accordion-header" onClick={() => handleToggle(1)}>
+                    <p className="accordion-header" onClick={() => handleToggle(1)}>
                         <button className={isActive.key == 1 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
                             What services does Instacertify offer?</button>
-                    </h5>
+                    </p>
                     <div className={isActive.key == 1 ? "accordion-collapse" : "accordion-collapse collapse"}>
                         <div className="accordion-body">Instacertify provides comprehensive product testing and certification compliance services,
                              including BIS, CRS, ISI, CDSCO, WPC, IMEI-DOT, GMARK, LMPC, SFDA, CIB, EPR, and E-waste Management.</div>

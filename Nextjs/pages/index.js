@@ -28,6 +28,7 @@ import Info7 from "@/components/sections/homepage4/Info7"
 import Projects3 from "@/components/sections/homepage4/Projects3"
 import Testimonial4 from "@/components/sections/homepage4/Testimonial4"
 import Whychooseus3 from "@/components/sections/homepage4/Whychooseus3"
+import Testimonial1 from "@/components/sections/homepage1/Testimonial1"
 export default function Home() {
 
     return (
@@ -38,14 +39,15 @@ export default function Home() {
                 <Brands1 />
                 <Services1 />
                 <Info7 />
-                <Testimonial4 />
+                <Testimonial1 />
+                {/* <Testimonial4 /> */}
                 <Howitwork1 />
                 {/* <Howitwork2 /> */}
                 <div className="line-border mb-1 mt-1"></div>
                 <Projects1 />
                 {/* <Projects3 /> */}
                 {/* <Info6 /> */}
-                <div className="line-border mb-3 mt-7"></div>
+                {/* <div className="line-border mb-3 mt-7"></div> */}
                 {/* <Requestquote2 /> */}
                 {/* <Whychooseus3 /> */}
                 <Info1 />

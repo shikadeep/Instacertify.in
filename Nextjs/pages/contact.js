@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout"
+import Newsletter1 from "@/components/sections/homepage2/Newsletter1";
 import Link from "next/link"
 import { useState } from "react";
 
@@ -158,7 +159,7 @@ export default function Contact() {
                             <div className="row">
                                 <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                                     <div className="card-offer hover-up">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage1/certification-icon.svg" alt="instacertify" /></div>
+                                        <div className="card-image"><img src="/assets/imgs/page/homepage1/certifi-icon.svg" alt="instacertify" /></div>
                                         <div className="card-info">
                                             <h5 className="color-brand-2 mb-15">Certification</h5>
                                             <p className="font-sm color-grey-900 mb-35">We offers a wide range of services to help buisness comply with industry standard and regulation.</p>
@@ -467,7 +468,7 @@ export default function Contact() {
 
                                 <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn"> We can help if you need to check your order status, return or exchange an item, or even learn more about Lowe’s order pickup.</p>
 
-                                <div className="box-accordion">
+                                <div className="box-accordion" style={{marginTop:'50px'}}>
                                     {/* <Accordion /> */}
                                     <div className="accordion" id="accordionFAQ">
                                         <div className="accordion-item wow animate__animated animate__fadeIn">
@@ -523,7 +524,7 @@ export default function Contact() {
                 </section>
 
                 <div className="mt-20" />
-                <div className="section bg-map d-block">
+                {/* <div className="section bg-map d-block">
                     <div className="container">
                         <div className="box-newsletter">
                             <h3 className="color-brand-2 mb-20 wow animate__animated animate__fadeIn">Get in Touch</h3>
@@ -600,7 +601,8 @@ export default function Contact() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
+                <Newsletter1/>
             </Layout>
         </>
     )

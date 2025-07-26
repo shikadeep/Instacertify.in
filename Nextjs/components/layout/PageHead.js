@@ -5,9 +5,10 @@ const PageHead = ({ headTitle }) => {
         <>
             <Head>
                 <title>
-                    {headTitle ? headTitle : "Transp - Transport Courier Logistics HTML Template"}
+                    {headTitle ? headTitle : "Instacertify"}
                 </title>
-                <link rel="shortcut icon" href="/favicon.svg" />
+                {/* <link rel="shortcut icon" href="/favicon.svg" /> */}
+                {/* <link rel="shortcut icon" href="/insta-logo-2.png"  /> */}
             </Head>
         </>
     )

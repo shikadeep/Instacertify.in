@@ -66,7 +66,8 @@ export default function Testimonial1Slider() {
                             </p>
                         <div className="card-bottom-info justify-content-between">
                             <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><br /><span className="font-sm color-white">For customer
-                                support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
+                                support</span></div>
+                                {/* <span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span> */}
                         </div>
                     </div>
                 </SwiperSlide>
@@ -85,7 +86,8 @@ export default function Testimonial1Slider() {
                             </p>
                         <div className="card-bottom-info justify-content-between">
                             <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><br /><span className="font-sm color-white">For customer
-                                support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
+                                support</span></div>
+                                {/* <span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span> */}
                         </div>
                     </div>
                 </SwiperSlide>
@@ -104,7 +106,8 @@ export default function Testimonial1Slider() {
                             </p>
                         <div className="card-bottom-info justify-content-between">
                             <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><br /><span className="font-sm color-white">For customer
-                                support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
+                                support</span></div>
+                                {/* <span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span> */}
                         </div>
                     </div>
                 </SwiperSlide>
@@ -122,7 +125,8 @@ export default function Testimonial1Slider() {
                             </p>
                         <div className="card-bottom-info justify-content-between">
                             <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><br /><span className="font-sm color-white">For customer
-                                support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
+                                support</span></div>
+                                {/* <span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span> */}
                         </div>
                     </div>
                 </SwiperSlide>
