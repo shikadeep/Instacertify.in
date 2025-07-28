@@ -38,7 +38,7 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                 <nav className="mt-15">
                                     <ul className="mobile-menu font-heading">
                                         <li><Link href="/">Home</Link></li>
-                                       
+
                                         <li><Link href="/about">About</Link></li>
                                         {/* <li className={isActive.key == 2 ? "has-children active" : "has-children"} onClick={() => handleToggle(2)}>
                                             <span className="menu-expand"><svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg></span>
@@ -47,37 +47,44 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                                 <li><Link href="/service-detail">Service Details</Link></li>
                                             </ul> */}
                                         {/* </li> */}
-                                        <li><Link href="/services">Services</Link></li>
-                                        <li className={isActive.key == 3 ? "has-children active" : "has-children"} onClick={() => handleToggle(3)}>
+                                        <li><Link href="/services">Certification</Link></li>
+                                        <li><Link href="/product-testing"> Product Testing</Link></li>
+
+                                        <li className={isActive.key == 4 ? "has-children active" : "has-children"} onClick={() => handleToggle(4)}>
                                             <span className="menu-expand"><svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg></span>
-                                            <Link href="#">Pages</Link>
-                                            <ul className={isActive.key == 3 ? "sub-menu d-block" : "sub-menu d-none"}>
-                                                {/* <li><Link href="/trackyourparcel">Track Your Parcel</Link></li>
-                                                <li><Link href="/workprocess">Work Process</Link></li>
-                                                <li><Link href="/request-a-quote">Request a quote</Link></li>
-                                                <li><Link href="/our-team">Our team</Link></li> */}
-                                                <li><Link href="/faqs">FAQ's</Link></li>
-                                                <li><Link href="/service-detail">Service detail</Link></li>
-                                                <li><Link href="/newsletter">Newsletter</Link></li>
-                                                {/* <li><Link href="/register">Register</Link></li>
-                                                <li><Link href="/login">Login</Link></li>
-                                                <li><Link href="/comingsoon">Coming soon</Link></li>
-                                                <li><Link href="/404">Error 404</Link></li> */}
+                                            <Link href="/">Resources</Link>
+                                            <ul className={isActive.key == 4 ? "sub-menu d-block" : "sub-menu d-none"}>
+                                                <li><Link href="/newsletter">News</Link></li>
+                                                <li><Link href="/events">Events</Link></li>
+                                                <li><Link href="/standards">Standards</Link></li>
+
                                             </ul>
                                         </li>
-                                        <li><Link href="/blog">Blog</Link></li>
-                                        {/* <li className={isActive.key == 4 ? "has-children active" : "has-children"} onClick={() => handleToggle(4)}>
+                                        {/* <li><Link href="/service-detail">Service Detail</Link></li>
+                        <li><Link href="/trackyourparcel">Track Your Parcel</Link></li>
+                        <li><Link href="/workprocess">Work Process</Link></li>
+                        <li><Link href="/request-a-quote">Request a quote</Link></li>
+                        <li><Link href="/our-team">Our team</Link></li>
+                        <li><Link href="/faqs">FAQ's</Link></li>
+                        <li><Link href="/register">Register</Link></li>
+                        <li><Link href="/login">Login</Link></li>
+                        <li><Link href="/comingsoon">Coming soon</Link></li>
+                        <li><Link href="/404">Error 404</Link></li> */}
+                                   
+                                
+                                {/* <li><Link href="/blog">Blog</Link></li> */}
+                                {/* <li className={isActive.key == 4 ? "has-children active" : "has-children"} onClick={() => handleToggle(4)}>
                                             <span className="menu-expand"><svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg></span>
                                             <Link href="/blog">Blog Pages</Link>
                                             <ul className={isActive.key == 4 ? "sub-menu d-block" : "sub-menu d-none"}>
                                                 <li><Link href="/blog-single">Blog Details</Link></li>
                                             </ul>
                                         </li> */}
-                                        <li><Link href="/contact">Contact</Link></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                            {/* <div className="site-copyright color-grey-400 mt-0">
+                                <li><Link href="/contact">Contact</Link></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    {/* <div className="site-copyright color-grey-400 mt-0">
                                 <div className="box-download-app">
                                     <p className="font-xs color-grey-900 mb-25">Download our Apps and get extra 15% Discount on your
                                         first Order…!</p>
@@ -89,10 +96,10 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                 <div className="mb-0"><span className="font-xs color-grey-500">©instacertify Official {new Date().getFullYear()}. All right
                                     reversed.</span></div>
                             </div> */}
-                        </div>
-                    </div>
                 </div>
             </div>
+        </div >
+            </div >
 
         </>
     )
