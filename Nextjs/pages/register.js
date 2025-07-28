@@ -5,15 +5,20 @@ export default function Register() {
 
     return (
         <>
-            <Layout>
-                <section className="section box-login">
+            <Layout headTitle="Register">
+
+                <div className="register-wrapper">
+                    <section className="section box-login">
                     <div className="row align-items-center m-0">
                         <div className="col-lg-6">
-                            <div className="box-login-left">
-                                <h2 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Create an account</h2>
-                                <p className="font-md color-grey-500 wow animate__animated animate__fadeIn">Describe yourself as clearly so that there are no mistakes</p>
-                                <div className="box-btn-signin mt-55"><Link className="btn btn-signin mb-10 wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/login/Google.svg" alt="Transp" />Sign up with Google</Link><Link className="btn btn-signin wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/login/apple.svg" alt="Transp" />Sign up with Apple ID</Link></div>
-                                <div className="box-or-login"><span className="text-or font-xs color-grey-500 wow animate__animated animate__fadeIn">Or continue with</span></div>
+                            <div 
+                            className="box-login-left"
+                            >
+                                                                    <img className="mb-50" src="/assets/imgs/template/icons/insta-logo-3.png" style={{ width: '200px' }} alt="instacertify"></img>
+                                <h3 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Create an account</h3>
+                                {/* <p className="font-md color-grey-500 wow animate__animated animate__fadeIn">Describe yourself as clearly so that there are no mistakes</p> */}
+                                {/* <div className="box-btn-signin mt-55"><Link className="btn btn-signin mb-10 wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/login/Google.svg" alt="Transp" />Sign up with Google</Link><Link className="btn btn-signin wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/login/apple.svg" alt="Transp" />Sign up with Apple ID</Link></div> */}
+                                {/* <div className="box-or-login"><span className="text-or font-xs color-grey-500 wow animate__animated animate__fadeIn">Or continue with</span></div> */}
                                 <div className="box-form-login wow animate__animated animate__fadeIn">
                                     <form action="#">
                                         <div className="row">
@@ -59,7 +64,7 @@ export default function Register() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        {/* <div className="col-lg-6">
                             <div className="box-login-right box-register-right">
                                 <div className="quote-shape shape-1" />
                                 <div className="box-info-bottom-img-3">
@@ -73,10 +78,10 @@ export default function Register() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </section>
-                <div className="section bg-2 pt-65 pb-35">
+                {/* <div className="section bg-2 pt-65 pb-35">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-3 mb-30 text-center text-lg-start wow animate__animated animate__fadeIn">
@@ -91,6 +96,7 @@ export default function Register() {
                             </div>
                         </div>
                     </div>
+                </div> */}
                 </div>
             </Layout>
         </>

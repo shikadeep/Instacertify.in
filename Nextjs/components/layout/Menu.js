@@ -26,7 +26,7 @@ export default function Menu() {
                 {/* services */}
                 <li 
                 // className="has-children"
-                ><Link href="#">Services</Link>
+                ><Link href="/services">Certification</Link>
                     {/* <div className="sub-menu five-col">
                         <div className="menu-col">
                             <h6 className="color-brand-2 mb-15">Sea Forwarding</h6>
@@ -85,30 +85,29 @@ export default function Menu() {
                         </div>
                     </div> */}
                 </li>
+                <li><Link href="/product-testing"> Product Testing</Link></li>
 
-                <li className="has-children"><Link href="#">Pages</Link>
+                <li className="has-children"><Link href="#">Resources</Link>
                  {/* Service detail */}
                     <ul className="sub-menu">
-               
-                        <li><Link href="/service-detail">Service Detail</Link></li>
-                        {/* <li><Link href="/trackyourparcel">Track Your Parcel</Link></li>
+
+                    <li><Link href="/newsletter">News</Link></li>
+                    <li><Link href="/events">Events</Link></li>
+                    <li><Link href="/standards">Standards</Link></li>
+                        {/* <li><Link href="/service-detail">Service Detail</Link></li>
+                        <li><Link href="/trackyourparcel">Track Your Parcel</Link></li>
                         <li><Link href="/workprocess">Work Process</Link></li>
                         <li><Link href="/request-a-quote">Request a quote</Link></li>
-                        <li><Link href="/our-team">Our team</Link></li> */}
+                        <li><Link href="/our-team">Our team</Link></li>
                         <li><Link href="/faqs">FAQ's</Link></li>
-                        {/* <li><Link href="/register">Register</Link></li>
+                        <li><Link href="/register">Register</Link></li>
                         <li><Link href="/login">Login</Link></li>
-                        <li><Link href="/comingsoon">Coming soon</Link></li> */}
-                        <li><Link href="/newsletter">Newsletter</Link></li>
-                        {/* <li><Link href="/404">Error 404</Link></li> */}
+                        <li><Link href="/comingsoon">Coming soon</Link></li>
+                        <li><Link href="/404">Error 404</Link></li> */}
                     </ul>
                 </li>
 
-                <li className="has-children"><Link href="/blog">Blog</Link>
-                    <ul className="sub-menu">
-                        <li><Link href="/blog-single">Blog Details</Link></li>
-                    </ul>
-                </li>
+                {/* <li ><Link href="/blog">Blog</Link></li> */}
                 <li><Link href="/contact">Contact</Link></li>
             </ul>
         </>

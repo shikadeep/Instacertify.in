@@ -15,6 +15,7 @@ export default function ServiceDetail() {
                         </div>
                     </div>
                 </section>
+                
                 <div className="section">
                     <div className="container">
                         <div className="row">

@@ -5,10 +5,11 @@ const PageHead = ({ headTitle }) => {
         <>
             <Head>
                 <title>
-                    {headTitle ? headTitle : "Instacertify"}
+                    {headTitle ? headTitle : "instacertify"}
                 </title>
                 {/* <link rel="shortcut icon" href="/favicon.svg" /> */}
-                {/* <link rel="shortcut icon" href="/insta-logo-2.png"  /> */}
+                <link rel="icon" href="/Instacertify-fevicon.png" type="image/png" />
+                 {/* <link rel="shortcut icon" href="/instacetify-fevicon.png" /> You can change this to your logo file */}
             </Head>
         </>
     )

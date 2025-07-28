@@ -5,20 +5,24 @@ export default function Newsletter() {
     return (
         <>
             <Layout headerStyle="newsletter" footerStyle="newsletter">
-                <section className="section d-block newsletter-style">
+              <div className="" >
+              <section className="section d-block newsletter-style">
                     <div className="box-swiper">
                         <div className="swiper-container swiper-group-1 swiper-banner-1">
-                            <NewsletterSlider />
+                            {/* <NewsletterSlider /> */}
                         </div>
                     </div>
                 </section>
                 <section className="section mt-60 newsletter-style">
-                    <div className="container-sub">
-                        <h4 className="title-favicon-newsletter color-brand-2 mb-25">What We Offer</h4>
+                    <div className="container">
+                        <h4 
+                        // className="
+                        // title-favicon-newsletter 
+                        className=" color-brand-2 mb-25">What We Offer</h4>
                         <div className="row CardServiceStyleNewsletter">
                             <div className="col-sm-4">
                                 <div className="card-offer card-offer-newsletter hover-up">
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></div>
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt=" instacertify" /></div>
                                     <div className="card-info">
                                         <h6 className="font-sm-bold color-brand-2 mb-10">Sea Forwarding</h6>
                                         <p className="font-xxs color-grey-700 mb-20">We are professional in ocean freight with more than 12 years of experience and have shipped more than 100k shipments.</p>
@@ -31,7 +35,7 @@ export default function Newsletter() {
                             </div>
                             <div className="col-sm-4">
                                 <div className="card-offer card-offer-newsletter hover-up">
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" /></div>
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/plane.png" alt=" instacertify" /></div>
                                     <div className="card-info">
                                         <h6 className="font-sm-bold color-brand-2 mb-10">Air Freight Forwarding</h6>
                                         <p className="font-xxs color-grey-700 mb-20">We are professional in ocean freight with more than 12 years of experience and have shipped more than 100k shipments.</p>
@@ -44,9 +48,9 @@ export default function Newsletter() {
                             </div>
                             <div className="col-sm-4">
                                 <div className="card-offer card-offer-newsletter hover-up">
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></div>
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/delivery.png" alt=" instacertify" /></div>
                                     <div className="card-info">
-                                        <h6 className="font-sm-bold color-brand-2 mb-10">Land Transportation</h6>
+                                        <h6 className="font-sm-bold color-brand-2 mb-10">Land  instacertifyortation</h6>
                                         <p className="font-xxs color-grey-700 mb-20">We are professional in ocean freight with more than 12 years of experience and have shipped more than 100k shipments.</p>
                                         <div className="box-button-offer"><a className="btn btn-link font-xxs color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -59,12 +63,14 @@ export default function Newsletter() {
                     </div>
                 </section>
                 <section className="section mt-50 newsletter-style">
-                    <div className="container-sub">
+                    <div className="container">
                         <div className="row align-items-center">
                             <div className="col-sm-6 mb-30">
                                 <div className="box-images-pround-newsletter">
-                                    <div className="box-images"> <img className="img-main" src="/assets/imgs/page/homepage1/img1.png" alt="transp" />
-                                        <div className="image-2 shape-3"> <img src="/assets/imgs/page/homepage1/icon1.png" alt="transp" /></div>
+                                    <div className="box-images"> <img className="img-main" src="/assets/imgs/page/homepage1/img1.png" alt=" instacertify" />
+                                        {/* <div className="image-2 shape-3">
+                                             <img src="/assets/imgs/page/homepage1/icon1.png" alt=" instacertify" />
+                                             </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -106,14 +112,14 @@ export default function Newsletter() {
                                             </li>
                                         </ul>
                                     </div>
-                                    <div className="mt-30 text-start d-flex"> <Link className="hover-up mr-10" href="#"> <img src="/assets/imgs/template/appstore-btn.png" alt="transp" /></Link><Link className="hover-up" href="#"> <img src="/assets/imgs/template/google-play-btn.png" alt="transp" /></Link></div>
+                                    {/* <div className="mt-30 text-start d-flex"> <Link className="hover-up mr-10" href="#"> <img src="/assets/imgs/template/appstore-btn.png" alt=" instacertify" /></Link><Link className="hover-up" href="#"> <img src="/assets/imgs/template/google-play-btn.png" alt=" instacertify" /></Link></div> */}
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
                 <section className="section mt-50 newsletter-style">
-                    <div className="container-sub">
+                    <div className="container">
                         <div className="row align-items-center">
                             <div className="col-sm-5"> <span className="btn btn-tag font-xxs">Get in touch</span>
                                 <h3 className="color-brand-2 font-16-bold mb-10 mt-10">Proud to Deliver <br className="d-none d-lg-block" />Excellence Every Time</h3>
@@ -124,23 +130,26 @@ export default function Newsletter() {
                                     </svg></Link></div>
                             </div>
                             <div className="col-sm-7 position-relative">
-                                <div className="certified-icon"><img src="/assets/imgs/page/homepage3/certified.png" alt="transp" /></div>
+                                {/* <div className="certified-icon"><img src="/assets/imgs/page/homepage3/certified.png" alt=" instacertify" /></div> */}
                                 <div className="row">
-                                    <div className="col-sm-6 pl-5 pr-5"><img className="mt-50" src="/assets/imgs/page/homepage3/img-info-5.png" alt="transp" /></div>
-                                    <div className="col-sm-6 pl-5 pr-5"> <img src="/assets/imgs/page/homepage3/img-info-5-2.png" alt="transp" /></div>
+                                    <div className="col-sm-6 pl-5 pr-5"><img className="mt-50" src="/assets/imgs/page/homepage3/img-info-5.png" alt=" instacertify" /></div>
+                                    <div className="col-sm-6 pl-5 pr-5"> <img src="/assets/imgs/page/homepage3/img-info-5-2.png" alt=" instacertify" /></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
                 <section className="section mt-60 newsletter-style">
-                    <div className="container-sub">
-                        <h4 className="title-favicon-newsletter color-brand-2 mb-25">Why Choose Us</h4>
+                    <div className="container">
+                        <h4 
+                        // className="title-favicon-newsletter
+                        
+                        className="color-brand-2 mb-25">Why Choose Us</h4>
                         <div className="row">
                             <div className="col-sm-6">
                                 <div className="item-reason">
                                     <div className="card-offer cardServiceStyle3 hover-up">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage4/container.png" alt="transp" /></div>
+                                        <div className="card-image"><img src="/assets/imgs/page/homepage4/container.png" alt=" instacertify" /></div>
                                         <div className="card-info">
                                             <h5 className="color-brand-2 mb-15">Over 1200 couriers</h5>
                                             <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo consectetur.</p>
@@ -151,7 +160,7 @@ export default function Newsletter() {
                             <div className="col-sm-6">
                                 <div className="item-reason">
                                     <div className="card-offer cardServiceStyle3 hover-up">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage4/24-hours.png" alt="transp" /></div>
+                                        <div className="card-image"><img src="/assets/imgs/page/homepage4/24-hours.png" alt=" instacertify" /></div>
                                         <div className="card-info">
                                             <h5 className="color-brand-2 mb-15">Automatic courier</h5>
                                             <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo consectetur.</p>
@@ -162,7 +171,7 @@ export default function Newsletter() {
                             <div className="col-sm-6">
                                 <div className="item-reason">
                                     <div className="card-offer cardServiceStyle3 hover-up">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage4/stopwatch.png" alt="transp" /></div>
+                                        <div className="card-image"><img src="/assets/imgs/page/homepage4/stopwatch.png" alt=" instacertify" /></div>
                                         <div className="card-info">
                                             <h5 className="color-brand-2 mb-15">Real-time alert</h5>
                                             <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo consectetur.</p>
@@ -173,7 +182,7 @@ export default function Newsletter() {
                             <div className="col-sm-6">
                                 <div className="item-reason">
                                     <div className="card-offer cardServiceStyle3 hover-up">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage4/pallet.png" alt="transp" /></div>
+                                        <div className="card-image"><img src="/assets/imgs/page/homepage4/pallet.png" alt=" instacertify" /></div>
                                         <div className="card-info">
                                             <h5 className="color-brand-2 mb-15">Email alerts</h5>
                                             <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo consectetur.</p>
@@ -184,8 +193,8 @@ export default function Newsletter() {
                         </div>
                     </div>
                 </section>
-                <section className="section mt-55 bg-1 position-relative newsletter-style block-info-3">
-                    <div className="container-sub position-relative">
+                {/* <section className="section mt-55 bg-1 position-relative newsletter-style block-info-3">
+                    <div className="container position-relative">
                         <div className="row">
                             <div className="col-sm-6 pt-25 pb-25"> <span className="btn btn-tag">Get in touch</span>
                                 <h6 className="color-brand-2 font-16-bold mb-15 mt-10">Proud to Deliver <br className="d-none d-lg-block" />Excellence Every Time</h6>
@@ -208,14 +217,14 @@ export default function Newsletter() {
                         </div>
                     </div>
                     <div className="box-image-touch" />
-                </section>
-                <section className="section mt-60 newsletter-style">
-                    <div className="container-sub">
+                </section> */}
+                {/* <section className="section mt-60 newsletter-style">
+                    <div className="container">
                         <h4 className="title-favicon-newsletter color-brand-2 mb-25">Meet Our Team</h4>
                         <div className="row">
                             <div className="col-sm-4 mb-50">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team1.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team1.png" alt=" instacertify" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -236,7 +245,7 @@ export default function Newsletter() {
                             </div>
                             <div className="col-sm-4 mb-50">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team2.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team2.png" alt=" instacertify" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Lori Stevens</h6>
                                         <div className="info-bottom">
@@ -257,7 +266,7 @@ export default function Newsletter() {
                             </div>
                             <div className="col-sm-4 mb-50">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team3.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team3.png" alt=" instacertify" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -278,60 +287,69 @@ export default function Newsletter() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <section className="section mt-60 newsletter-style">
-                    <div className="container-sub">
+                    <div className="container">
                         <h4 className="title-favicon-newsletter color-brand-2 mb-25">Testimonials</h4>
                         <div className="row">
                             <div className="col-sm-6 mb-30">
                                 <div className="card-testimonial-grid">
-                                    <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/author.png" alt="transp" /></Link>
-                                        <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">Guy Hawkins</span></Link><span className="font-sm color-grey-500 department">Bank of America</span></div>
+                                    <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/user.svg" alt=" instacertify" /></Link>
+                                        <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">Sanjay</span></Link> </div>
                                     </div>
-                                    <p className="font-md color-grey-700">Access the same project through five different dynamic views: a kanban board, Gantt chart, spreadsheet, calendar or simple task list.</p>
+                                    <p className="font-md color-grey-700">Insta Certify Services is an invaluable and reliable partner for all our certification needs. Their meticulous attention to detail, coupled with their unwavering commitment to maintaining the highest industry standards, has consistently provided us with peace of mind.
+
+</p>
                                     <div className="card-bottom-info justify-content-between">
-                                        <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><br /><span className="font-sm color-white">For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
+                                        <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt=" instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt=" instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt=" instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt=" instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt=" instacertify" /><br /><span className="font-sm color-white">For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-sm-6 mb-30">
                                 <div className="card-testimonial-grid">
-                                    <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/author2.png" alt="transp" /></Link>
-                                        <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">Eleanor Pena</span></Link><span className="font-sm color-grey-500 department">Bank of America</span></div>
+                                    <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/user.svg" alt=" instacertify" /></Link>
+                                        <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">Amit S</span></Link> </div>
                                     </div>
-                                    <p className="font-md color-grey-700">Access the same project through five different dynamic views: a kanban board, Gantt chart, spreadsheet, calendar or simple task list.</p>
+                                    <p className="font-md color-grey-700"> We've worked with several certification companies in the past, but none compare to Insta 
+                                        Certify Services. Their streamlined testing and certification processes have saved us time and resources. The team goes above and beyond to ensure everything is done correctly, and their equipment is cutting-edge.
+                                    </p>
                                     <div className="card-bottom-info justify-content-between">
-                                        <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><br /><span className="font-sm color-white">For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
+                                        <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt=" instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt=" instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt=" instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt=" instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt=" instacertify" /><br /><span className="font-sm color-white">For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-sm-6 mb-30">
                                 <div className="card-testimonial-grid">
-                                    <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/author3.png" alt="transp" /></Link>
-                                        <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">Cody Fisher</span></Link><span className="font-sm color-grey-500 department">Bank of America</span></div>
+                                    <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/user.svg" alt=" instacertify" /></Link>
+                                        <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">Shalini P</span></Link> </div>
                                     </div>
-                                    <p className="font-md color-grey-700">Access the same project through five different dynamic views: a kanban board, Gantt chart, spreadsheet, calendar or simple task list.</p>
+                                    <p className="font-md color-grey-700">The team at Insta Certify Services provided us with not only certification but also guidance on improving our processes. 
+                                        Their comprehensive approach and personalized support have allowed us to meet regulatory requirements more efficiently. They truly care about their clients' success.
+                                    </p>
                                     <div className="card-bottom-info justify-content-between">
-                                        <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><br /><span className="font-sm color-white">For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
+                                        <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt=" instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt=" instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt=" instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt=" instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt=" instacertify" /><br /><span className="font-sm color-white">For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-sm-6 mb-30">
                                 <div className="card-testimonial-grid">
-                                    <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/author3.png" alt="transp" /></Link>
-                                        <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">Cody Fisher</span></Link><span className="font-sm color-grey-500 department">Bank of America</span></div>
+                                    <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/user.svg" alt=" instacertify" /></Link>
+                                        <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name"> Neha M</span></Link> </div>
                                     </div>
-                                    <p className="font-md color-grey-700">Access the same project through five different dynamic views: a kanban board, Gantt chart, spreadsheet, calendar or simple task list.</p>
+                                    <p className="font-md color-grey-700">We've worked with several certification companies in the past, but none compare to Insta
+                                Certify Services. Their streamlined testing and certification processes have saved us
+                                time and resources. The team goes above and beyond to ensure everything is done
+                                correctly, and their equipment is cutting-edge.</p>
                                     <div className="card-bottom-info justify-content-between">
-                                        <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><br /><span className="font-sm color-white">For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
+                                        <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt=" instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt=" instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt=" instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt=" instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt=" instacertify" /><br /><span className="font-sm color-white">For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section className="section mt-55 newsletter-style">
-                    <div className="container-sub">
+                {/* <section className="section mt-55 newsletter-style">
+                    <div className="container">
                         <div className="box-form-request-quote-2 box-form-request-quote-3">
                             <div className="box-form-contact-leading">
                                 <h2 className="title-favicon color-brand-2 mb-15">Request a Quote</h2>
@@ -420,14 +438,14 @@ export default function Newsletter() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <section className="section mt-60 newsletter-style">
-                    <div className="container-sub">
+                    <div className="container">
                         <h4 className="title-favicon-newsletter color-brand-2 mb-25">Our Blog &amp; Insights</h4>
                         <div className="row">
                             <div className="col-sm-6">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-single"><img src="/assets/imgs/page/homepage2/news1.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
+                                    <div className="card-image"><Link href="/blog-single"><img src="/assets/imgs/page/homepage2/news1.png" alt=" instacertify" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
                                     <div className="card-info"><Link href="/blog-single">
                                         <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
                                         <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
@@ -441,7 +459,7 @@ export default function Newsletter() {
                             </div>
                             <div className="col-sm-6">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-single"><img src="/assets/imgs/page/homepage2/news2.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
+                                    <div className="card-image"><Link href="/blog-single"><img src="/assets/imgs/page/homepage2/news2.png" alt=" instacertify" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
                                     <div className="card-info"><Link href="/blog-single">
                                         <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
                                         <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
@@ -456,6 +474,7 @@ export default function Newsletter() {
                         </div>
                     </div>
                 </section>
+              </div>
             </Layout>
         </>
     )

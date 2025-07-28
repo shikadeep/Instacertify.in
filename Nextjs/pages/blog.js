@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout"
+import Newsletter1 from "@/components/sections/homepage2/Newsletter1"
 import Brand1Slider from "@/components/slider/Brand1Slider"
 import Link from "next/link"
 export default function Blog() {
@@ -56,7 +57,7 @@ export default function Blog() {
                         </div>
                     </div>
                 </section>
-                <section className="section mt-50 position-relative">
+                {/* <section className="section mt-50 position-relative">
                     <div className="container">
                         <div className="banner-786">
                             <div className="box-banner-ads">
@@ -67,7 +68,7 @@ export default function Blog() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <section className="section mt-70">
                     <div className="container">
                         <div className="row">
@@ -232,7 +233,7 @@ export default function Blog() {
                     </div>
                 </div>
                 <div className="mt-100" />
-                <div className="section bg-map d-block">
+                {/* <div className="section bg-map d-block">
                     <div className="section bg-map d-block">
                     <div className="container">
                         <div className="box-newsletter">
@@ -311,7 +312,8 @@ export default function Blog() {
                         </div>
                     </div>
                 </div>
-                </div>
+                </div> */}
+                <Newsletter1/>
             </Layout>
         </>
     )

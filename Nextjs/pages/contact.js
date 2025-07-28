@@ -415,44 +415,44 @@ export default function Contact() {
                                         className="mb-20 wow animate__animated animate__fadeIn">Testing</h4>
 
                                     <p className="font-md color-grey-700 mb-50 wow animate__animated animate__fadeIn">We can help if you need to check your order status, return or exchange an item, or even learn more about order pickup.</p>
-                                    <div className="accordion" id="accordionFAQ">
-                                        <div className="accordion-item wow animate__animated animate__fadeIn">
+                                    <div className="accordion" id="accordionFAQ" style={{ borderRadius: '4px' }}>
+                                        <div className="accordion-item wow animate__animated animate__fadeIn" style={{ borderRadius: '4px' }}>
                                             <h5 className="accordion-header" onClick={() => handleToggle(1)}>
-                                                <button className={isActive.key == 1 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
+                                                <button className={isActive.key == 1 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"} style={{ borderRadius: '4px' }}>
                                                     What types of product testing does Instacertify facilitate?</button>
                                             </h5>
-                                            <div className={isActive.key == 1 ? "accordion-collapse" : "accordion-collapse collapse"}>
-                                                <div className="accordion-body">We use NABL-accredited labs to conduct BIS, BEE, EPR, and
+                                            <div className={isActive.key == 1 ? "accordion-collapse" : "accordion-collapse collapse"} style={{ borderRadius: '4px' }}>
+                                                <div className="accordion-body" style={{ borderRadius: '4px' }}>We use NABL-accredited labs to conduct BIS, BEE, EPR, and
                                                     other industry-specific testing.</div>
                                             </div>
                                         </div>
-                                        <div className="accordion-item wow animate__animated animate__fadeIn">
+                                        <div className="accordion-item wow animate__animated animate__fadeIn" style={{ borderRadius: '4px' }}>
                                             <h5 className="accordion-header" onClick={() => handleToggle(2)}>
-                                                <button className={isActive.key == 2 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
+                                                <button className={isActive.key == 2 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"} style={{ borderRadius: '4px' }}>
                                                     How do I choose the right testing equipment for BIS certification?</button>
                                             </h5>
-                                            <div className={isActive.key == 2 ? "accordion-collapse" : "accordion-collapse collapse"}>
-                                                <div className="accordion-body">Our team of professionals suggests equipment that satisfies your product's testing and
+                                            <div className={isActive.key == 2 ? "accordion-collapse" : "accordion-collapse collapse"} style={{ borderRadius: '4px' }}>
+                                                <div className="accordion-body" style={{ borderRadius: '4px' }}>Our team of professionals suggests equipment that satisfies your product's testing and
                                                     certification requirements.</div>
                                             </div>
                                         </div>
-                                        <div className="accordion-item wow animate__animated animate__fadeIn">
+                                        <div className="accordion-item wow animate__animated animate__fadeIn" style={{ borderRadius: '4px' }}>
                                             <h5 className="accordion-header" onClick={() => handleToggle(3)}>
-                                                <button className={isActive.key == 3 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
+                                                <button className={isActive.key == 3 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"} style={{ borderRadius: '4px' }}>
                                                     Are NABL-accredited labs mandatory for certification testing?</button>
                                             </h5>
-                                            <div className={isActive.key == 3 ? "accordion-collapse" : "accordion-collapse collapse"}>
-                                                <div className="accordion-body">Yes, NABL-accredited laboratories are required to provide trustworthy and compliance
+                                            <div className={isActive.key == 3 ? "accordion-collapse" : "accordion-collapse collapse"} style={{ borderRadius: '4px' }}>
+                                                <div className="accordion-body" style={{ borderRadius: '4px' }}>Yes, NABL-accredited laboratories are required to provide trustworthy and compliance
                                                     test findings.</div>
                                             </div>
                                         </div>
-                                        <div className="accordion-item wow animate__animated animate__fadeIn">
+                                        <div className="accordion-item wow animate__animated animate__fadeIn" style={{ borderRadius: '4px' }}>
                                             <h5 className="accordion-header" onClick={() => handleToggle(4)}>
-                                                <button className={isActive.key == 4 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
+                                                <button className={isActive.key == 4 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"} style={{ borderRadius: '4px' }}>
                                                     Can Instacertify arrange testing in multiple Indian states?</button>
                                             </h5>
-                                            <div className={isActive.key == 4 ? "accordion-collapse" : "accordion-collapse collapse"}>
-                                                <div className="accordion-body">Yes, we have partnerships with NABL-accredited labs nationwide.
+                                            <div className={isActive.key == 4 ? "accordion-collapse" : "accordion-collapse collapse"} style={{ borderRadius: '4px' }}>
+                                                <div className="accordion-body" style={{ borderRadius: '4px' }}>Yes, we have partnerships with NABL-accredited labs nationwide.
                                                 </div>
                                             </div>
                                         </div>
@@ -468,47 +468,47 @@ export default function Contact() {
 
                                 <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn"> We can help if you need to check your order status, return or exchange an item, or even learn more about Lowe’s order pickup.</p>
 
-                                <div className="box-accordion" style={{marginTop:'50px'}}>
+                                <div className="box-accordion" style={{ marginTop: '50px' }}>
                                     {/* <Accordion /> */}
-                                    <div className="accordion" id="accordionFAQ">
-                                        <div className="accordion-item wow animate__animated animate__fadeIn">
+                                    <div className="accordion" id="accordionFAQ" style={{ borderRadius: '4px' }}>
+                                        <div className="accordion-item wow animate__animated animate__fadeIn" style={{ borderRadius: '4px' }}>
                                             <h5 className="accordion-header" onClick={() => handleToggle(5)}>
-                                                <button className={isActive.key == 5 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
+                                                <button className={isActive.key == 5 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"} style={{ borderRadius: '4px' }}>
                                                     What certifications does Instacertify help with?</button>
                                             </h5>
-                                            <div className={isActive.key == 5 ? "accordion-collapse" : "accordion-collapse collapse"}>
-                                                <div className="accordion-body">Instacertify offers services for BIS-ISI (FMCS & Domestic), CRS (FMCS &am; Domestic),
+                                            <div className={isActive.key == 5 ? "accordion-collapse" : "accordion-collapse collapse"} style={{ borderRadius: '4px' }}>
+                                                <div className="accordion-body" style={{ borderRadius: '4px' }}>Instacertify offers services for BIS-ISI (FMCS & Domestic), CRS (FMCS &am; Domestic),
                                                     BEE, Hallmarking, WPC-ETA Registration, IMEI-ICDR, EPR (Plastic, E-Waste, Battery
                                                     Waste), G Mark, Saber, CDSCO, LMPC, Sedex, and others.</div>
                                             </div>
                                         </div>
-                                        <div className="accordion-item wow animate__animated animate__fadeIn">
+                                        <div className="accordion-item wow animate__animated animate__fadeIn" style={{ borderRadius: '4px' }}>
                                             <h5 className="accordion-header" onClick={() => handleToggle(6)}>
-                                                <button className={isActive.key == 6 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
+                                                <button className={isActive.key == 6 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"} style={{ borderRadius: '4px' }}>
                                                     Why is BIS certification mandatory for certain products in India?</button>
                                             </h5>
-                                            <div className={isActive.key == 6 ? "accordion-collapse" : "accordion-collapse collapse"}>
-                                                <div className="accordion-body">BIS certification assures that items fulfill India's safety, quality, and performance
+                                            <div className={isActive.key == 6 ? "accordion-collapse" : "accordion-collapse collapse"} style={{ borderRadius: '4px' }}>
+                                                <div className="accordion-body" style={{ borderRadius: '4px' }}>BIS certification assures that items fulfill India's safety, quality, and performance
                                                     standards. Specific items require compliance with environmental regulations.</div>
                                             </div>
                                         </div>
-                                        <div className="accordion-item wow animate__animated animate__fadeIn">
+                                        <div className="accordion-item wow animate__animated animate__fadeIn" style={{ borderRadius: '4px' }}>
                                             <h5 className="accordion-header" onClick={() => handleToggle(7)}>
-                                                <button className={isActive.key == 7 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
+                                                <button className={isActive.key == 7 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"} style={{ borderRadius: '4px' }}>
                                                     What is the difference between BIS-ISI and BIS-CRS certification?</button>
                                             </h5>
-                                            <div className={isActive.key == 7 ? "accordion-collapse" : "accordion-collapse collapse"}>
-                                                <div className="accordion-body">BIS-ISI certification applies to items that meet safety, quality, and performance
+                                            <div className={isActive.key == 7 ? "accordion-collapse" : "accordion-collapse collapse"} style={{ borderRadius: '4px' }}>
+                                                <div className="accordion-body" style={{ borderRadius: '4px' }}>BIS-ISI certification applies to items that meet safety, quality, and performance
                                                     criteria. CRS applies only to registered electronic and information technology items.</div>
                                             </div>
                                         </div>
-                                        <div className="accordion-item wow animate__animated animate__fadeIn">
+                                        <div className="accordion-item wow animate__animated animate__fadeIn" style={{ borderRadius: '4px' }}>
                                             <h5 className="accordion-header" onClick={() => handleToggle(8)}>
-                                                <button className={isActive.key == 8 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
+                                                <button className={isActive.key == 8 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"} style={{ borderRadius: '4px' }}>
                                                     How long does it take to get product certification from BIS?</button>
                                             </h5>
-                                            <div className={isActive.key == 8 ? "accordion-collapse" : "accordion-collapse collapse"}>
-                                                <div className="accordion-body">Depending on the product and certification type, testing, paperwork, and inspection
+                                            <div className={isActive.key == 8 ? "accordion-collapse" : "accordion-collapse collapse"} style={{ borderRadius: '4px' }}>
+                                                <div className="accordion-body" style={{ borderRadius: '4px' }}>Depending on the product and certification type, testing, paperwork, and inspection
                                                     might take anywhere from 30 to 90 days.
                                                 </div>
                                             </div>
