@@ -262,6 +262,7 @@ export default function Events() {
                 </div> */}
                 <Newsletter1/>
             </Layout>
+            
         </>
     )
 }

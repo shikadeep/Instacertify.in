@@ -96,6 +96,7 @@ export default function Contact() {
                         </div>
                     </div>
                 </section>
+                
                 <section className="section mt-100">
                     <div className="container">
                         <h2 className="color-brand-2 mb-20 wow animate__animated animate__fadeIn">HOW CAN WE ASSIST YOU TODAY?</h2>

@@ -31,6 +31,7 @@ export default function Service() {
     return (
         <>
             <Layout>
+                {/* 
                 <section className="section">
                     <div className="container">
                         <div className="box-pageheader-1 box-pageheader-services text-center"><span className="btn btn-tag wow animate__animated animate__fadeIn">What we offer</span>
@@ -311,9 +312,9 @@ export default function Service() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 {/* <Pricing2 /> */}
-                <div className="line-border" />
+                {/* <div className="line-border" />
                 <section className="section pt-80 mb-70 bg-faqs">
                     <div className="container">
                         <div className="row">
@@ -343,7 +344,7 @@ export default function Service() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 {/* <div className="section bg-map d-block">
                     <div className="container">
                         <div className="box-newsletter">
@@ -419,7 +420,7 @@ export default function Service() {
                         </div>
                     </div>
                 </div> */}
-                <div className="section bg-map d-block">
+                {/* <div className="section bg-map d-block">
                     <div className="container">
                         <div className="box-newsletter">
                             <h3 className="color-brand-2 mb-20 wow animate__animated animate__fadeIn">Get in Touch</h3>
@@ -496,8 +497,8 @@ export default function Service() {
                             </div>
                         </div>
                     </div>
-                </div>
-            </Layout>
+                </div> */}
+            </Layout> 
         </>
     )
 }

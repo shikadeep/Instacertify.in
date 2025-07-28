@@ -198,7 +198,7 @@ export default function Quote() {
                         </div>
                         <div className="row mt-50">
                             <div className="col-lg-6 mb-30">
-                                <div className="box-image-how"><img className="w-100 wow animate__animated animate__fadeIn" src="/assets/imgs/page/homepage1/how-it-work.png" alt="transp" />
+                                <div className="box-image-how"><img className="w-100 wow animate__animated animate__fadeIn" src="" alt="transp" />
                                     <div className="box-info-bottom-img">
                                         <div className="image-play wow animate__animated animate__fadeIn"><img className="mb-15" src="/assets/imgs/template/icons/play.svg" alt="transp" /></div>
                                         <div className="info-play">
