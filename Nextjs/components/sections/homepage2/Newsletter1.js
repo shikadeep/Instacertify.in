@@ -14,7 +14,7 @@ export default function Newsletter1() {
                                             <div className="row">
                                                 <div className="col-md-12">
                                                     <div className="form-group">
-                                                        <input className="form-control" type="text" placeholder="FirstName *" />
+                                                        <input className="form-control" style={{borderRadius: '10px'}} type="text" placeholder="FirstName *" />
                                                     </div>
                                                 </div>
                                                 {/* <div className="col-md-6">
@@ -24,17 +24,17 @@ export default function Newsletter1() {
                                                 </div> */}
                                                 <div className="col-md-6">
                                                     <div className="form-group">
-                                                        <input className="form-control" type="text" placeholder="Email" />
+                                                        <input className="form-control" style={{borderRadius: '10px'}} type="text" placeholder="Email" />
                                                     </div>
                                                 </div>
                                                 <div className="col-md-6">
                                                     <div className="form-group">
-                                                        <input className="form-control" type="text" placeholder="Number" />
+                                                        <input className="form-control" style={{borderRadius: '10px'}} type="text" placeholder="Number" />
                                                     </div>
                                                 </div>
                                                 <div className="col-md-12">
                                                     <div className="form-group">
-                                                        <textarea className="form-control" placeholder="Message / Note" rows={5} defaultValue={""} />
+                                                        <textarea className="form-control" style={{borderRadius: '10px'}} placeholder="Message / Note" rows={5} defaultValue={""} />
                                                     </div>
                                                 </div>
                                                 <div className="col-md-12">

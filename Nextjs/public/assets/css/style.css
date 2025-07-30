@@ -2552,7 +2552,7 @@ iframe {
   display: block;
 }
 .header .main-header .header-left .header-logo a img {
-  min-height: 28px;
+  min-height: 27px;
 }
 .header .main-header .header-left .header-nav {
   display: inline-block;
@@ -2631,7 +2631,7 @@ iframe {
 .header .main-menu li a {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
   color: #045478;
   line-height: 28px;
@@ -2671,16 +2671,18 @@ iframe {
   box-shadow: 0px 10px 42px rgba(1, 9, 20, 0.06);
   display: none;
 }
-.header .main-menu li div.sub-menu.five-col {
+.header .main-menu li div.sub-menu.four-col {
+  width: 90%;
   display: none;
+  gap: 50px;
   padding: 30px 19px;
   margin: 0px -15px;
 }
-.header .main-menu li div.sub-menu.five-col .menu-col {
+.header .main-menu li div.sub-menu.four-col .menu-col {
   width: 20%;
   padding: 0px 15px;
 }
-.header .main-menu li div.sub-menu.five-col .menu-col .megamenu {
+.header .main-menu li div.sub-menu.four-col .menu-col .megamenu {
   position: relative;
   opacity: 1;
   visibility: visible;
@@ -2691,13 +2693,13 @@ iframe {
   border: 0px;
   box-shadow: none;
 }
-.header .main-menu li div.sub-menu.five-col .menu-col .megamenu li a {
+.header .main-menu li div.sub-menu.four-col .menu-col .megamenu li a {
   color: #045478;
   font-size: 12px;
   line-height: 18px;
   padding: 5px 0px;
 }
-.header .main-menu li div.sub-menu.five-col .menu-col .megamenu li a:hover {
+.header .main-menu li div.sub-menu.four-col .menu-col .megamenu li a:hover {
   color: #ec691f;
 }
 .header .main-menu li div.sub-menu .menu-inner {
@@ -3736,7 +3738,7 @@ iframe {
 }
 
 .footer-2 {
-  background-color: #045478;
+  background-color: #ec691f;
   color: #F2F3F4;
 }
 
@@ -3775,7 +3777,7 @@ iframe {
 
 .box-newsletter {
   position: relative;
-  border-radius: 0px;
+  border-radius: 20px;
   /* background-color: #FFE799; */
   background-color: #E8E9ED;
   padding: 66px;
@@ -5708,11 +5710,11 @@ footer a {
   /* background-color: #034460; */
   background-color: #E8E9ED;
   /* background-image: url(../imgs/page/homepage1/ship.png); */
-  background-position: top center;
+  /* background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 133px 0px 100px 0px;
-  position: relative;
+  position: relative; */
 }
 .bg-customers-say::before {
   content: "";
@@ -7491,7 +7493,7 @@ a.color-brand-2:hover {
   }
   .box-background-offer .bg-under {
     left: -10px;
-    right: -10px;
+    right: -20px;
   }
   .box-image-touch::before {
     width: 277px;
@@ -8033,6 +8035,7 @@ a.color-brand-2:hover {
   .card-testimonial-grid .card-bottom-info {
     align-items: center;
     padding: 10px 15px;
+  
   }
   .card-testimonial-grid .card-bottom-info .rate-post {
     width: 50%;
@@ -8042,6 +8045,8 @@ a.color-brand-2:hover {
   }
   .card-testimonial-grid {
     padding: 20px 20px 20px 20px;
+    max-height: 479px ;
+    
   }
   .box-info-bottom-img {
     position: relative;

@@ -289,7 +289,7 @@ export default function Services() {
                 }
                 .minor-list {
                     margin-top: 0.5rem;
-                    margin-left: 1.5rem;
+                    margin-left: 5.5rem;
                     font-size: 0.95em;
                     color: #045478;
                 }

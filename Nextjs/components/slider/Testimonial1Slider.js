@@ -51,7 +51,7 @@ export default function Testimonial1Slider() {
                 className="swiper-wrapper"
             >
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
-                    <div className="card-testimonial-grid">
+                    <div className="card-testimonial-grid" >
                         <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/user.svg" alt="instacertify" /></Link>
                             <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">
                                 Sanjay</span></Link>
@@ -64,7 +64,7 @@ export default function Testimonial1Slider() {
                                 team has been incredibly supportive throughout the entire process. We highly recommend
                                 them for anyone seeking reliable certification solutions.
                             </p>
-                        <div className="card-bottom-info justify-content-between">
+                        <div className="card-bottom-info justify-content-between" >
                             <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><br /><span className="font-sm color-white">For customer
                                 support</span></div>
                                 {/* <span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span> */}
@@ -84,7 +84,7 @@ export default function Testimonial1Slider() {
                                 time and resources. The team goes above and beyond to ensure everything is done
                                 correctly, and their equipment is cutting-edge.
                             </p>
-                        <div className="card-bottom-info justify-content-between">
+                        <div className="card-bottom-info justify-content-between" >
                             <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><br /><span className="font-sm color-white">For customer
                                 support</span></div>
                                 {/* <span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span> */}
@@ -99,9 +99,9 @@ export default function Testimonial1Slider() {
                                 {/* <span className="font-sm color-grey-500 department">Bank of America</span> */}
                                 </div>
                         </div>
-                        <p className="font-md color-grey-700"> The team at Insta Certify Services provided us with not only certification but also
+                        <p className="font-md color-grey-700"> Insta Certify Services provided us with not only certification but also
                                 guidance on improving our processes. Their comprehensive approach and personalized
-                                support have allowed us to meet regulatory requirements more efficiently. Their streamlined testing and certification processes have saved us
+                                support  allowed us to meet regulatory requirements more efficiently. Their streamlined testing and certification processes have saved us
                                 time and resources.
                             </p>
                         <div className="card-bottom-info justify-content-between">
@@ -118,12 +118,12 @@ export default function Testimonial1Slider() {
                             {/* <span className="font-sm color-grey-500 department">Bank of America</span> */}
                             </div>
                         </div>
-                        <p className="font-md color-grey-700">We've worked with several certification companies in the past, but none compare to Insta
+                        <p className="font-md color-grey-700" >We've worked with several certification companies in the past, but none compare to Insta
                                 Certify Services. Their streamlined testing and certification processes have saved us
                                 time and resources. The team goes above and beyond to ensure everything is done
                                 correctly, and their equipment is cutting-edge.
                             </p>
-                        <div className="card-bottom-info justify-content-between">
+                        <div className="card-bottom-info justify-content-between" >
                             <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><img src="/assets/imgs/template/icons/star.svg" alt="instacertify" /><br /><span className="font-sm color-white">For customer
                                 support</span></div>
                                 {/* <span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span> */}

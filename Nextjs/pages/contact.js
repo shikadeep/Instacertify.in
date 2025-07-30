@@ -603,7 +603,7 @@ export default function Contact() {
                         </div>
                     </div>
                 </div> */}
-                <Newsletter1/>
+                
             </Layout>
         </>
     )

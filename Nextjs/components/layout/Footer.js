@@ -105,13 +105,13 @@ export default function Footer1({ }) {
                     <div className="container">
                         <div className="footer-bottom">
                             <div className="row align-items-center" style={{color:'#FFFFFF'}} >
-                                <div className="col-lg-6 col-md-12 text-center text-lg-start"><span className=" font-md">Copyright © Instacertify Labs Private Limited {new Date().getFullYear()}. All right reversed.</span></div>
+                                <div className="col-lg-6 col-md-12 text-center text-lg-start"><span className=" font-md">All Rights Reservered Instacertify Labs Private Limited  {new Date().getFullYear()}</span></div>
                                 <div className="col-lg-6 col-md-12 text-center text-lg-end">
                                     <ul className="menu-bottom">
                                         <li><Link className="font-sm " style={{color:'#FFFFFF'}} href="/term-conditions">Privacy policy</Link>
                                         </li>
-                                        <li><Link className="font-sm  " style={{color:'#FFFFFF'}} href="/term-conditions">Cookies</Link></li>
-                                        <li><Link className="font-sm "  style={{color:'#FFFFFF'}} href="/term-conditions">Terms of service</Link>
+                                        <li><Link className="font-sm  " style={{color:'#FFFFFF'}} href="/term-conditions">Cancellations & Refund Policy                                        </Link></li>
+                                        <li><Link className="font-sm "  style={{color:'#FFFFFF'}} href="/term-conditions">Code of Conduct </Link>
                                         </li>
                                     </ul>
                                 </div>
