@@ -27,7 +27,7 @@ export default function Services1() {
                                     <div className="card-info">
                                         <h5 className="color-brand-2 mb-15">Certification</h5>
                                         <p className="font-sm color-grey-900 mb-35">We offers a wide range of services to help buisness comply with industry standard and regulation.</p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2"style={{paddingTop:'23px'}}>View Details<span>
+                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></span></a></div>
@@ -56,7 +56,7 @@ export default function Services1() {
                                     <div className="card-info">
                                         <h5 className="color-brand-2 mb-15">Equipement</h5>
                                         <p className="font-sm color-grey-900 mb-35">We provide advanced tools and machinery and ensure businesses meet top safety and performance standards.</p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2"style={{paddingRight :'23px'}}>View Details<span>
+                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></span></a></div>
